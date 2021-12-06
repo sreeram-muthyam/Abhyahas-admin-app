@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1093132011379",
+    "project_id": "abhyahas-puppy",
+    "storage_bucket": "abhyahas-puppy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093132011379:android:aba922a43a7f0635b26706",
+        "android_client_info": {
+          "package_name": "com.ganesh.abhyahas_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093132011379-1sfaprk7urqmgraf9v81shqbvn52jcth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv0hIbfNGoa1Kq2THzVLc3sSUXI9MbQYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093132011379-1sfaprk7urqmgraf9v81shqbvn52jcth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093132011379:android:60a54a551ce51706b26706",
+        "android_client_info": {
+          "package_name": "com.sreerammuthyam.abhyahas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093132011379-1sfaprk7urqmgraf9v81shqbvn52jcth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv0hIbfNGoa1Kq2THzVLc3sSUXI9MbQYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093132011379-1sfaprk7urqmgraf9v81shqbvn52jcth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

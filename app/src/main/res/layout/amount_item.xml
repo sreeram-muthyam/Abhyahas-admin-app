@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Coursename"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Course name"
+            android:autoSizeTextType="uniform"
+            android:ellipsize="end"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/createrName"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Creater name" />
+
+        <TextView
+            android:id="@+id/amountPrice"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Price"
+            />
+
+        <TextView
+            android:id="@+id/SettlementAmount"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:autoSizeTextType="uniform"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

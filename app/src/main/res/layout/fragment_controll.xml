@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6FFBC41E"
+    tools:context="Fragments.ControllFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="100dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/backbtnControl"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back_icon"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/carter_one"
+                    android:gravity="center"
+                    android:text="App Controls"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                android:id="@+id/StMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start/Stop the app"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/buttonStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:text="Start"/>
+
+            <TextView
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                android:id="@+id/UpMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accept/Not Accept the courses"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/UpbuttonStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:text="Accepting the courses"/>
+
+            <TextView
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                android:id="@+id/PayMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accept/Not Accept the payment"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_marginTop="15dp"
+                android:id="@+id/PaymentStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:text="Accepting the Payment"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

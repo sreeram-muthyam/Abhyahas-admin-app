@@ -1,0 +1,147 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6FFBC41E"
+    tools:context="Fragments.TransactionFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="100dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/backbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/back_icon"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/carter_one"
+                    android:gravity="center"
+                    android:text="Money Settlement Page"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"/>
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Statement"
+                android:text="Statement"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/UPIID"
+                android:text="UpiId:"
+                android:textSize="20sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TransactionId"
+                android:padding="10dp"
+                android:hint="Enter Transaction Id here"
+                android:textColorHint="#B3A3A3"
+                android:background="@drawable/bottom_nav_background"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment Mode:"
+                android:textSize="20sp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/PaymentMode"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/PhonePay"
+                    android:text="Phone Pay"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/GooglePay"
+                    android:text="G Pay"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Paytm"
+                    android:text="Paytm"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/NetBanking"
+                    android:text="NetBanking"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/OtherMode"
+                    android:text="Others"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/settledbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount Settled"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:paddingStart="10dp"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
